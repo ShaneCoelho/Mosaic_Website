@@ -1,12 +1,12 @@
 import React from "react";
+import Judges from "./pages/Judges/Judges";
+import Mentors from "./pages/Mentors/Mentors";
 
 const App = () => {
   return (
     <div>
-      <div className="container">
-        <h1>My Bootstrap App</h1>
-        <button className="btn btn-primary">Click Me</button>
-      </div>
+      <Judges/>
+      <Mentors/>
     </div>
   );
 };

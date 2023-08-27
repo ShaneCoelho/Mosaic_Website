@@ -1,0 +1,51 @@
+header {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-image: url('../../assets/Judges/background.jpg');
+    background-size: contain;
+}
+
+
+  .cardi-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px;
+  }
+
+  .cardi {
+    background-color: rgba(0, 0, 0, 0.0); /* Transparent background */
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+  }
+
+  .cardi img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .cardi h2 {
+    margin-top: 5px;
+    font-size: 1.5em;
+    color: #ffffff;
+  }
+
+  .cardi p {
+    margin-top: 5px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
