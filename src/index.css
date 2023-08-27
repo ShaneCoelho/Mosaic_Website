@@ -1,6 +1,1 @@
-body {
-  margin: 0;
-  line-height: normal;
-  font-family: var(--font-poppins);
-  background-color: #000;
-}
+@import "bootstrap/dist/css/bootstrap.min.css";
