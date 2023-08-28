@@ -4,6 +4,7 @@ import background from "../../assets/Judges/background.jpg"
 import dishant from "../../assets/Mentors/dishant.png"
 import prajakta from "../../assets/Mentors/prajakta.png"
 import vishek from "../../assets/Mentors/vishek.png"
+import yash from "../../assets/Mentors/yash.jpg"
 import ReactDOM from 'react-dom';
 
 const Mentors = () => {
@@ -23,7 +24,7 @@ const Mentors = () => {
           </div>
 
           <div className="cardi">
-              <img src={prajakta} alt="Speaker 8"/>
+              <img src={prajakta} alt="Speaker 2"/>
               <h2>Prajakta Kadam</h2>
               <p>Co-Founder of Techvalley | Microsoft Student Ambassador</p>
               
@@ -31,9 +32,15 @@ const Mentors = () => {
 
 
           <div className="cardi">
-              <img src={vishek} alt="Speaker 2"/>
+              <img src={vishek} alt="Speaker 3 "/>
               <h2>Vishek Pratap</h2>
               <p>Co-Founder of Techvalley | Devrel Evangelist | Mentor at 130+ events </p>  
+          </div>
+
+          <div className="cardi">
+              <img src={yash} alt="Speaker 4"/>
+              <h2>Yash Joshi</h2>
+              <p>Smart India hackathon '22 winner | 9x hackathon winner </p>  
           </div>
           
         </section>

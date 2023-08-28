@@ -5,7 +5,7 @@ import royston from "../../assets/Judges/royston.jpg"
 import pranav from "../../assets/Judges/pranav.png"
 import lekhraj from "../../assets/Judges/Lekhraj.jpeg"
 import nimish from "../../assets/Judges/nimish.jpg"
-import sriniwas from "../../assets/Judges/sriniwas.jpg"
+import sriniwas from "../../assets/Judges/Sriniwas .jpg"
 import ReactDOM from 'react-dom';
 
 const Judges = () => {
