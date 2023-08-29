@@ -13,7 +13,7 @@ const Judges = () => {
         <div className="bodya">
         
         <header>
-          <h1>Speakers and Judges</h1>
+          <h1 className="section-title">Speakers and Judges</h1>
         </header>
         <section className="carda-container">
           

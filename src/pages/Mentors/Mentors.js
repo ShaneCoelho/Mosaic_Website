@@ -12,7 +12,7 @@ const Mentors = () => {
         <div className="body">
         
         <header>
-          <h1>Mentors</h1>
+          <h1 className="section-title">Mentors</h1>
         </header>
         <section className="cardi-container">
           

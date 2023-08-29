@@ -1,7 +1,9 @@
 header {
     text-align: center;
     padding: 30px 0;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 .bodya {
@@ -11,8 +13,17 @@ header {
     color: #ffffff;
     background-image: url('../../assets/Judges/background.jpg') no-repeat center center;
     background-size: contain;
+   
 }
-
+.section-title{
+  width: 90%;
+  margin-top: 30px;
+  font-family: 'Orbitron', sans-serif;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    text-shadow: -5px 0 40px #fff, 5px 0 40px #fff, 0 0 20px #fff; 
+}
 
   .carda-container {
     display: flex;
@@ -50,3 +61,4 @@ header {
   header {
     padding: 30px 0;
   }
+  
