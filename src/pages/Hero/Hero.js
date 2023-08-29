@@ -10,7 +10,6 @@ function Hero() {
             navLinks.classList.toggle('active');
         });
     }
-    
   return (
 <section class="hero">
     <div class="hero-content">
@@ -20,7 +19,7 @@ function Hero() {
             <div class="bar"></div>
         </div>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
+            <li class="forward"><a href="#">Home</a></li>
             <li class="center"><a href="#">About</a></li>
             <li class="upward"><a href="#">Event</a></li>
             <li class="center"><a href="#">Judge</a></li>
