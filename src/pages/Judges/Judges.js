@@ -1,6 +1,6 @@
 import React from "react";
 import "./Judges\.css";
-import background from "../../assets/Judges/background.jpg"
+// import background from "../../assets/Judges/background.jpg"
 import royston from "../../assets/Judges/royston.jpg"
 import pranav from "../../assets/Judges/pranav.png"
 import lekhraj from "../../assets/Judges/Lekhraj.jpeg"
