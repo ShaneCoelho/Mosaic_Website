@@ -7,7 +7,7 @@ import Hero from "./pages/Hero/Hero";
 import About from "./pages/About/About";
 import bg from "./assets/galaxy-bg.jpg";
 import bg2 from "./assets/TechnicalChapter/background.jpg";
-import EventHighlight from "./pages/EventHighlight/EventHighlight";
+import Schedule from "./pages/Schedule/Schedule";
 
 const App = () => {
 
@@ -61,7 +61,7 @@ const App = () => {
         <About />
         <Judges />
         <Mentors />
-        <EventHighlight />
+        <Schedule />
         <TechnicalChapter />
       </div>
     </section>
