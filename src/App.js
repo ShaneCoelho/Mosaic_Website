@@ -41,8 +41,8 @@ const App = () => {
       let starCount = 150;
 
       if (window.innerWidth <= 768) {
-        maxHeight /= 0.5;
-        starCount = 100;
+        maxHeight /= 1.1;
+        starCount = 20;
       }
 
       stars(section, maxHeight, starCount);
