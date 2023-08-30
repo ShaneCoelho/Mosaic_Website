@@ -13,6 +13,7 @@
   padding-bottom: 60px;
   display: flex;
   justify-content: center;
+  background: rgba(20, 20, 20, 0);
   /* background: url('../../assets/abt-bg.jpg');
   background-size: cover; */
 }
@@ -26,6 +27,7 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center; 
+  background: rgba(20, 20, 20, 0);
 
 }
 .hero-content{
