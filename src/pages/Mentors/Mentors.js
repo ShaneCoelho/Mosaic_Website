@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom';
 
 const Mentors = () => {
     return (
-        <div className="body">
+        <div className="bodies">
         
         <header>
           <h1>Mentors</h1>
