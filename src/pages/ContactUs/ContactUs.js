@@ -4,6 +4,7 @@ import Astronaut from '../../assets/ContactUs/astronaut.png'
 
 const ContactUs = () => {
     return (
+        <section id ="contact-section">
         <React.Fragment>
             <header>
                 <h1 class="section-title">Contact Us</h1>
@@ -30,6 +31,7 @@ const ContactUs = () => {
                 </div>
             </div>
         </React.Fragment>
+        </section>
     )
 }
 
