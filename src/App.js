@@ -8,6 +8,8 @@ import About from "./pages/About/About";
 import bg from "./assets/galaxy-bg.jpg";
 import bg2 from "./assets/TechnicalChapter/background.jpg";
 import Schedule from "./pages/Schedule/Schedule";
+import ChiefGuest from "./pages/ChiefGuest/ChiefGuest";
+import ContactUs from "./pages/ContactUs/ContactUs";
 
 const App = () => {
 
@@ -38,7 +40,7 @@ const App = () => {
     const sections = document.querySelectorAll('section');
     sections.forEach((section) => {
       let maxHeight = Math.max(window.innerHeight, document.documentElement.scrollHeight);
-      let starCount = 150;
+      let starCount = 200;
 
       if (window.innerWidth <= 768) {
         maxHeight /= 1.1;
@@ -59,10 +61,12 @@ const App = () => {
 
         <Hero />
         <About />
+        <ChiefGuest />
         <Judges />
         <Mentors />
         <Schedule />
         <TechnicalChapter />
+        <ContactUs />
       </div>
     </section>
   );
