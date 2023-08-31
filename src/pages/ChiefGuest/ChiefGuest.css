@@ -16,17 +16,21 @@
     flex-direction: column;
     align-items: center;
   min-height: 100vh;
+   background: rgba(20, 20, 20, 0);
 }
 .guest-container {
   font-family: 'Bangers', cursive;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rgba(20, 20, 20, 0);
+  z-index: 1000;
 }
 .guest-img {
   border-radius: 50%;
   width: 15rem;
   margin-bottom: 1rem;
+  z-index: 100;
   filter: drop-shadow(0 0 10px white), drop-shadow(0 0 10px white), drop-shadow(0 0 10px white), drop-shadow(0 0 4px white);
 }
 .guest-name {
@@ -56,12 +60,14 @@
   }
   
 .chief-section-title {
+    width: 100%;
+    margin-top: 30px;
     font-family: 'Orbitron', sans-serif;
-    color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
-    text-shadow: -5px 0 40px #fff, 5px 0 40px #fff, 0 0 20px #fff; 
-    font-size: 52px; /* Font size for mobile */
+      color: transparent;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: white;
+      text-shadow: -5px 0 25px #fff, 5px 0 40px #fff, 5px 0 20px #fff; 
+      font-size: 52px;
   }
 
 @media screen and (max-width:720px) {

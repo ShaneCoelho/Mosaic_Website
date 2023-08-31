@@ -6,6 +6,7 @@
     font-family: Arial, sans-serif;
     /* background: url('../../assets/TechnicalChapter/background.jpg'); */
     /* background: url('../../assets/galaxy-bg.jpg'); */
+    background: rgba(20, 20, 20, 0);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -61,7 +62,7 @@
 .event-content-p {
   font-family: "Orbitron", sans-serif;
   font-size: 24px;
-  color: black;
+  background: rgba(20, 20, 20, 0);
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: white;
   text-shadow: -10px 0 60px #fff, 10px 0 60px #fff, 0 0 60px #fff;
@@ -165,7 +166,7 @@
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
-    text-shadow: -5px 0 40px #fff, 5px 0 40px #fff, 0 0 20px #fff; 
+    text-shadow: -5px 0 40px #fff, 5px 0 0px #fff, 0 0 20px #fff; 
     font-size: 52px; /* Font size for mobile */
   }
 

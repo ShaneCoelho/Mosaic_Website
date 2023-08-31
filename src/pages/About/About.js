@@ -5,7 +5,8 @@ function About() {
   return (
     <section class="about">
        <header>
-          <h1 class="section-title">About </h1>&nbsp;&nbsp;&nbsp;&nbsp;<h1 class="section-title">us</h1>
+          <h1 class="about-section-title">About Us</h1>
+          {/* &nbsp;&nbsp;&nbsp;&nbsp;<h1 class="section-title">us</h1> */}
         </header>
         <div class='about-content'>
           <p class='about-txt'>

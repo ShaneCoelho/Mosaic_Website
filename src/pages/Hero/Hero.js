@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import mosaic from "../../assets/mosaic.jpg"
+import mosaic from "../../assets/mosaic.png"
 
 function Hero() {
     const menu = () => {
@@ -26,6 +26,9 @@ function Hero() {
                     <li class="center"><a href="#">Judge</a></li>
                     <li class="forward"><a href="#">Contacts</a></li>
                 </ul>
+                <div>
+                <img src={mosaic} alt="" class="mosaic-img"/>
+                </div>
             </div>
 
         </section>
