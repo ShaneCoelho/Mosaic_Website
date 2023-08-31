@@ -9,6 +9,7 @@ import Schedule from "./pages/Schedule/Schedule";
 import bg from "./assets/galaxy-bg.jpg";
 import bg2 from "./assets/TechnicalChapter/background.jpg";
 
+
 const App = () => {
 
   window.onload = () => {

@@ -7,7 +7,8 @@ import r2 from "../../assets/EventHighlight/r2.png";
 
 const EventHighlight = () => {
     return (
-        <>
+        <section id ="event">
+        
             <div className="event-highlight">
                 <div className="event-title-label">
                     <h1 className="event-section-title">Event Highlights</h1>
@@ -38,7 +39,8 @@ const EventHighlight = () => {
                     </div>
                 </main>
             </div>
-        </>
+    </section>
+    
     )
 }
 

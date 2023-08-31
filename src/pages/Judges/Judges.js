@@ -10,12 +10,13 @@ import ReactDOM from 'react-dom';
 
 const Judges = () => {
     return (
+      <section id = "judges-section">
         <div className="bodya">
-        
+          
         <header>
           <h1 className="section-title">Speakers and Judges</h1>
         </header>
-        <section className="carda-container">
+        <section id = "judges-section"section className="carda-container">
           
           <div className="carda">
             <img src={royston} alt="Speaker 1"/>
@@ -54,6 +55,7 @@ const Judges = () => {
  
         </section>
         </div>
+    </section>
      )
 
 }
