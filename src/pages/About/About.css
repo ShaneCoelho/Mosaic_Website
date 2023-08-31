@@ -21,23 +21,11 @@
     /* text-align: center; */
     text-align: justify;
 }
-.about-section-title{
-    width: 100%;
-    margin-top: 30px;
-    font-family: 'Orbitron', sans-serif;
-      color: transparent;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: white;
-      text-shadow: -5px 0 40px #fff, 5px 0 40px #fff, 0 0 20px #fff; 
-}
 .about-txt{
-    font-size: 32px;
+    font-size: 38px;
     font-family: 'Bangers', cursive;
 }
 @media (max-width: 768px) {
-    .about{
-        margin-top: 100px;
-    }
     .about-content {
         width: 85%; 
         text-align: center;
@@ -46,5 +34,4 @@
     .about-txt {
         font-size: 24px; 
     }
-    
 }

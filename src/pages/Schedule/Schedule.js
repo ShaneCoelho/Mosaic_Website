@@ -29,12 +29,11 @@ const Schedule = () => {
                 {
                     EventData.map((e, i) => {
                         return (
-                            <div className="sec-event" key={i} >
+                            <div key={i} >
                                 <div className="row mt-3">
                                     <div className="glow-text col-12 text-center">{e.title}</div>
 
                                     <div className="glow-desc col-12 text-center">{e.date}</div>
-                                    
                                 </div>
                                 {
                                     e.timeline.map((tl, j) => {
@@ -51,7 +50,6 @@ const Schedule = () => {
                                                                 </div>
                                                             </div>
                                                             :
-                                                            
                                                             <div className="event right">
                                                                 <img src={planets[j % 7]} alt="planet" className="event-img" />
                                                                 <div className="event-container">
