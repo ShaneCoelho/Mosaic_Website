@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Poppins:wght@200;400&display=swap");
+
+.bg {
+  background-image: url("../../assets/events/bg.jpg");
+  color: #fff;
+  background-size: cover;
+}
+
+.glow-text {
+  color: #f6206d;
+  text-shadow: 0px 0px 45.630001068115234px #f6206d,
+    0px 0px 91.26000213623047px #f6206d, 0px 0px 319.4100036621094px #f6206d,
+    0px 0px 638.8200073242188px #f6206d, 0px 0px 1095.1199951171875px #f6206d,
+    0px 0px 1916.4599609375px #f6206d;
+  font-family: Nunito;
+  font-size: 1.8em;
+  font-weight: 900;
+}
+.glow-desc {
+  color: #fff;
+  font-family: Nunito;
+  font-size: 1.5em;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.timeline {
+  width: 100%;
+  left: 10px;
+  right: 10px;
+}
+
+.event {
+  margin-bottom: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: all 400ms;
+}
+.event .event-container {
+  border: 1px solid white;
+  min-width: 20%;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.event .event-date {
+  color: #f6206d;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Nunito;
+  font-size: 1.5em;
+
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.event .event-description {
+  font-family: Nunito;
+  font-size: 1em;
+
+  font-weight: 900;
+}
+
+.event .event-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  flex-shrink: 0;
+}
+
+.event.left {
+  justify-content: flex-end;
+}
+
+.event.right {
+  justify-content: flex-start;
+}
+
+.event.left .event-img {
+  margin-right: 20px;
+  margin-left: 0px;
+}
+
+.event.right .event-img {
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+  .event .event-container {
+    width: 100%;
+  }
+  .event .event-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .event.left .event-img,
+  .event.right .event-img {
+    margin-right: 10px;
+    margin-left: 0;
+  }
+
+  .event.left {
+    justify-content: flex-start; /* Change to flex-start on mobile */
+  }
+}

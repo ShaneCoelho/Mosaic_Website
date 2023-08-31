@@ -4,11 +4,14 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url('../../assets/TechnicalChapter/background.jpg') no-repeat center center;
+    /* background: url('../../assets/TechnicalChapter/background.jpg'); */
+    /* background: url('../../assets/galaxy-bg.jpg'); */
+    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: rgba(20, 20, 20, 0);
   }
 
   .technical-label {
@@ -23,15 +26,15 @@
     font-family: "Orbitron-Bold", Helvetica;
     font-size: 20px; /* Font size for mobile */
     font-weight: 700;
-    text-shadow: 0px 5px 6px #a100ed;
+    text-shadow: 0px 9px 3px #b944f0;
     margin-bottom: 15px;
   }
 
   .technical-container {
-    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(255, 255, 255, 0.1); */
     border-radius: 0px;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(20, 20, 20, 0);
     max-width: 80%; /* Card size for mobile */
     width: 90%; /* Card size for mobile */
     text-align: center;
@@ -44,6 +47,7 @@
   h1 {
     margin-top: 30px;
     text-align: center;
+    font-size: 52px;
   }
 
   .technical-title-label {
@@ -67,8 +71,8 @@
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
-    text-shadow: -5px 0 30px #fff, 5px 0 30px #fff, 0 0 30px #fff;
-    font-size: 25px; /* Font size for mobile */
+    text-shadow: -5px 0 40px #fff, 5px 0 40px #fff, 0 0 20px #fff; 
+    font-size: 52px; /* Font size for mobile */
   }
 
   @media (min-width: 768px) {
@@ -81,6 +85,6 @@
       width: 90%; /* Card size for desktop */
     }
     .technical-section-title {
-      font-size: 40px; /* Font size for desktop */
+      font-size: 52px; /* Font size for desktop */
     }
   }
