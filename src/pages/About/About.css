@@ -11,7 +11,15 @@
     /* background: url('../../assets/abt-bg.jpg');
     background-size: cover; */
 }
-
+  .about-section-title{
+        width: 100%;
+        margin-top: 30px;
+        font-family: 'Orbitron', sans-serif;
+          color: transparent;
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: white;
+          text-shadow: -5px 0 40px #fff, 5px 0 40px #fff, 0 0 20px #fff; 
+      }
 .about-content{
     width: 90%;
     display: flex;
@@ -22,7 +30,7 @@
     text-align: justify;
 }
 .about-txt{
-    font-size: 38px;
+    font-size: 32px;
     font-family: 'Bangers', cursive;
 }
 @media (max-width: 768px) {
@@ -34,4 +42,14 @@
     .about-txt {
         font-size: 24px; 
     }
+    .about-section-title{
+        width: 100%;
+        margin-top: 30px;
+        font-family: 'Orbitron', sans-serif;
+          color: transparent;
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: white;
+          text-shadow: -5px 0 40px #fff, 5px 0 40px #fff, 0 0 20px #fff; 
+      }
+    
 }

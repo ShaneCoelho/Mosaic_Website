@@ -16,6 +16,7 @@
     flex-direction: column;
     align-items: center;
   min-height: 100vh;
+  background: rgba(20, 20, 20, 0);
 }
 .guest-container {
   font-family: 'Bangers', cursive;

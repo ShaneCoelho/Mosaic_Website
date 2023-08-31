@@ -15,40 +15,36 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 const App = () => {
 
   window.onload = () => {
-    function stars(section, maxHeight, count) {
-      var i = 0;
-
-      while (i < count) {
-        const star = document.createElement('i');
-        const x = Math.floor(Math.random() * window.innerWidth);
-        const y = Math.floor(Math.random() * maxHeight);
-
-        const size = Math.random() * 4;
-        star.style.left = x + 'px';
-        star.style.top = y + 'px';
-        star.style.width = 1 + size + 'px';
-        star.style.height = 1 + size + 'px';
-
-        const duration = Math.random() * 2;
-        star.style.animationDuration = 2 + duration + 's';
-        star.style.animationDelay = duration + 's';
-
-        section.appendChild(star);
-        i++;
-      }
+    function createStar(maxHeight) {
+      const star = document.createElement('i');
+      const x = Math.floor(Math.random() * window.innerWidth);
+      const y = Math.floor(Math.random() * maxHeight);
+  
+      const size = Math.random() * 4;
+      star.style.left = x + 'px';
+      star.style.top = y + 'px';
+      star.style.width = 1 + size + 'px';
+      star.style.height = 1 + size + 'px';
+  
+      const duration = Math.random() * 2;
+      star.style.animationDuration = 2 + duration + 's';
+      star.style.animationDelay = duration + 's';
+  
+      return star;
     }
-
+  
     const sections = document.querySelectorAll('section');
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+    const maxHeight = window.innerWidth <= 768 ? 1.001 * windowHeight : Math.max(windowHeight, documentHeight);
+    const starCount = window.innerWidth <= 768 ? 15 : 150;
+  
     sections.forEach((section) => {
-      let maxHeight = Math.max(window.innerHeight, document.documentElement.scrollHeight);
-      let starCount = 200;
-
-      if (window.innerWidth <= 768) {
-        maxHeight /= 1.1;
-        starCount = 20;
+      const fragment = document.createDocumentFragment();
+      for (let i = 0; i < starCount; i++) {
+        fragment.appendChild(createStar(maxHeight));
       }
-
-      stars(section, maxHeight, starCount);
+      section.appendChild(fragment);
     });
   };
 
