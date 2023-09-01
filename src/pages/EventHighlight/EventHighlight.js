@@ -21,9 +21,9 @@ const EventHighlight = () => {
                     <br />
                     <div className="event-icon-con">
                         <p>"Compete, Collaborate, Innovate " </p>
-                        <p className="event-date"><i className="fas fa-calendar"></i> 15th - 16th September</p>
-                        <p><i className="fas fa-clock"></i> 12:00pm (15th) - 12:00pm (16th)</p>
-                        <p className="event-loc"><i className="fas fa-map-marker-alt"></i> College Campus</p>
+                        <p className="event-date"> 15th - 16th September</p>
+                        <p> 12:00pm (15th) - 12:00pm (16th)</p>
+                        <p className="event-loc"> College Campus</p>
                     </div>
                     <br />
                     <div className="event-info-1">
@@ -33,9 +33,9 @@ const EventHighlight = () => {
                     <br />
                     <div className="event-icon-con">
                         <p>"Witness the Future of Robotics" </p>
-                        <p className="event-date-1"><i className="fas fa-calendar"></i>16th September</p>
-                        <p className="event-clock-1"><i className="fas fa-clock"></i>9:00am - 4:00pm</p>
-                        <p className="event-loc-1"><i className="fas fa-map-marker-alt"></i>Robotics Arena</p>
+                        <p className="event-date-1">16th September</p>
+                        <p className="event-clock-1">9:00am - 4:00pm</p>
+                        <p className="event-loc-1">Robotics Arena</p>
                     </div>
                 </main>
             </div>

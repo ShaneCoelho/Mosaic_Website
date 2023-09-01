@@ -13,7 +13,7 @@
 .hero {
   margin: 0;
   padding: 0;
-  padding-bottom: 60px;
+  padding-bottom: 35px;
   display: flex;
   justify-content: center;
   background: rgba(20, 20, 20, 0);
@@ -118,6 +118,18 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.hero-center-container {
+  text-align: center;
+
+}
+
+/* Style the image */
+.hero-img {
+  max-width: 650px;
+  height: 650px;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -173,4 +185,26 @@ body {
     font-size: 26px;
     padding: 10px 20px;
   }
+
+  .hero-img {
+    max-width: 450px;
+    height: 450px;
+  }
+
+  .hero {
+ 
+    padding-bottom: 160px;
+    margin-bottom: 0px
+
+  }
+  .hero-center-container {
+    text-align: center;
+    margin-bottom: 0px;
+  
+  }
+
+  .main-section{
+    margin-bottom: 180px;
+  }
+
 }

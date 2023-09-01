@@ -10,6 +10,7 @@ import bg2 from "./assets/TechnicalChapter/background.jpg";
 import Schedule from "./pages/Schedule/Schedule";
 import ChiefGuest from "./pages/ChiefGuest/ChiefGuest";
 import ContactUs from "./pages/ContactUs/ContactUs";
+import EventHighlight from "./pages/EventHighlight/EventHighlight"
 
 
 const App = () => {
@@ -65,6 +66,7 @@ const App = () => {
         <Judges />
         <Mentors />
         <Schedule />
+        <EventHighlight />
         <TechnicalChapter />
         <ContactUs />
       </div>
