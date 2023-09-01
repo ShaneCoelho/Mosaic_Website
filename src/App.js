@@ -15,42 +15,41 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 const App = () => {
 
   window.onload = () => {
-    function stars(section, maxHeight, count) {
-      var i = 0;
+    function createStar(maxHeight) {
+      const star = document.createElement('i');
+      const x = Math.floor(Math.random() * window.innerWidth);
+      const y = Math.floor(Math.random() * maxHeight);
   
-      while (i < count) {
-        const star = document.createElement('i');
-        const x = Math.floor(Math.random() * window.innerWidth);
-        const y = Math.floor(Math.random() * maxHeight);
+      const size = Math.random() * 4;
+      star.style.left = x + 'px';
+      star.style.top = y + 'px';
+      star.style.width = 1 + size + 'px';
+      star.style.height = 1 + size + 'px';
   
-        const size = Math.random() * 4;
-        star.style.left = x + 'px';
-        star.style.top = y + 'px';
-        star.style.width = 1 + size + 'px';
-        star.style.height = 1 + size + 'px';
+      const duration = Math.random() * 2;
+      star.style.animationDuration = 2 + duration + 's';
+      star.style.animationDelay = duration + 's';
   
-        const duration = Math.random() * 2;
-        star.style.animationDuration = 2 + duration + 's';
-        star.style.animationDelay = duration + 's';
-  
-        section.appendChild(star);
-        i++;
-      }
+      return star;
     }
   
     const sections = document.querySelectorAll('section');
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+    const maxHeight = window.innerWidth <= 768 ? 1.001 * windowHeight : Math.max(windowHeight, documentHeight);
+    const starCount = window.innerWidth <= 768 ? 5 : 50; 
+  
     sections.forEach((section) => {
-      let maxHeight = Math.max(window.innerHeight, document.documentElement.scrollHeight);
-      let starCount = 150; 
-  
-      if (window.innerWidth <= 768) {
-        maxHeight /= 1.001; 
-        starCount =100; 
+      if (section.getBoundingClientRect().top <= windowHeight) {
+        const fragment = document.createDocumentFragment();
+        for (let i = 0; i < starCount; i++) {
+          fragment.appendChild(createStar(maxHeight));
+        }
+        section.appendChild(fragment);
       }
-  
-      stars(section, maxHeight, starCount);
     });
   };
+  
 
 
   return (
