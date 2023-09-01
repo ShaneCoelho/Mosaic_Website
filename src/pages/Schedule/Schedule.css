@@ -8,10 +8,8 @@
 
 .glow-text {
   color: #f6206d;
-  text-shadow: 0px 0px 45.630001068115234px #f6206d,
-    0px 0px 91.26000213623047px #f6206d, 0px 0px 319.4100036621094px #f6206d,
-    0px 0px 638.8200073242188px #f6206d, 0px 0px 1095.1199951171875px #f6206d,
-    0px 0px 1916.4599609375px #f6206d;
+  text-shadow: 0px 0px 45px #f6206d,
+    0px 0px 30px #f6206d;
   font-family: Nunito;
   font-size: 1.8em;
   font-weight: 900;
