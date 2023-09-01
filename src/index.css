@@ -35,4 +35,13 @@ section i {
     *{
         overflow-x: hidden;
     }
+    h1{
+        overflow: hidden;
+    }
+    h2{
+        overflow: hidden;
+    }
+    p{
+        overflow: hidden;
+    }
 }
