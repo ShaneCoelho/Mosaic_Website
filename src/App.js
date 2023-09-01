@@ -37,7 +37,7 @@ const App = () => {
     const windowHeight = window.innerHeight;
     const documentHeight = document.documentElement.scrollHeight;
     const maxHeight = window.innerWidth <= 768 ? 1.001 * windowHeight : Math.max(windowHeight, documentHeight);
-    const starCount = window.innerWidth <= 768 ? 5 : 50; 
+    const starCount = window.innerWidth <= 768 ? 15 : 180; 
   
     sections.forEach((section) => {
       if (section.getBoundingClientRect().top <= windowHeight) {
