@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import mosaic1 from "../../assets/Hero/mosaic.png"
 import mosaic from "../../assets/Hero/Hero-Mosaig-Img.png"
 
 function Hero() {
@@ -36,6 +37,9 @@ function Hero() {
 
         </section>
         
+        <div>
+                <img src={mosaic} alt="" class="mosaic-img"/>
+                </div>
        
             {/* <div class='mosaic-img'>
         <img style={{height: '500px',background: 'transparent'}} src={mosaic} alt=''> 
@@ -44,9 +48,9 @@ function Hero() {
  
           </div> */}
 
-<div className="mosaic-img">
+{/* <div className="mosaic-img">
         <img className="hero-img" src={mosaic} alt="Centered Image"/>
-    </div>
+    </div> */}
         
         </section>
         </section>

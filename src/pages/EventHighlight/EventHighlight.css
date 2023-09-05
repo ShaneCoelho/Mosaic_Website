@@ -11,14 +11,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: rgba(20, 20, 20, 0);
   /* background-image: url("../../assets/EventHighlight/bg1.png"); */
 }
-
+#event{
+  background: rgba(20, 20, 20, 0);
+}
 .event-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   max-width: 100%;
+  background: rgba(20, 20, 20, 0);
 }
 
 .event-divider {

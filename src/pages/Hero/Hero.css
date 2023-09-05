@@ -7,6 +7,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+.main-section{
+  background: rgba(20, 20, 20, 0);
+}
 #home{
   background: rgba(20, 20, 20, 0);
 }
@@ -107,7 +110,7 @@ body {
   transform-origin: left;
 }
 .mosaic-img{
-  width: 30%;
+  width: 40%;
   display: flex;
   margin-left: auto;
   margin-right: auto;
