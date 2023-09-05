@@ -37,7 +37,7 @@ function createStarsOnLoad() {
   const windowHeight = window.innerHeight;
   const documentHeight = document.documentElement.scrollHeight;
   const maxHeight = window.innerWidth <= 768 ? 1.001 * windowHeight : Math.max(windowHeight, documentHeight);
-  const starCount = window.innerWidth <= 768 ? 20 : 180;
+  const starCount = window.innerWidth <= 768 ? 20 : 220;
 
   sections.forEach((section) => {
     const sectionTop = section.getBoundingClientRect().top;
